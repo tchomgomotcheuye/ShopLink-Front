@@ -1,0 +1,1 @@
+import{j as t,L as o}from"./index-887g5GhI.js";const e=()=>t.jsxs("div",{className:"container mx-auto px-4 py-20 text-center",children:[t.jsx("p",{children:"Produit introuvable."}),t.jsx(o,{to:"/produits",className:"text-primary",children:"Retour"})]});export{e as notFoundComponent};
