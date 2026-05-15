@@ -244,14 +244,7 @@ function Home() {
         <section className="container mx-auto px-4 py-20">
           <div className="relative overflow-hidden rounded-3xl bg-gradient-hero p-10 text-primary-foreground shadow-elegant md:p-14">
             <div className="absolute -right-10 bottom-0 hidden md:block">
-              <img
-                src={scooterImg}
-                alt="Livraison"
-                loading="lazy"
-                width={1024}
-                height={768}
-                className="w-[420px]"
-              />
+              <img src={scooterImg} alt="Livraison" loading="lazy" width={1024} height={768} className="w-[420px] -scale-x-100" />
             </div>
             <div className="relative max-w-xl">
               <h3 className="text-3xl font-bold md:text-4xl">
